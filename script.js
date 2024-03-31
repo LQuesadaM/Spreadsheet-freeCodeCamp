@@ -13,6 +13,12 @@ const median = (nums) => {
     : sorted[Math.ceil(middle)];
 };
 
+const spreadsheetFunctions = {
+  sum,
+  average,
+  median,
+};
+
 const range = (start, end) =>
   Array(end - start + 1)
     .fill(start)
