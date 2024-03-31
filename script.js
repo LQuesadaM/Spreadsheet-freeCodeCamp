@@ -1,3 +1,11 @@
+
+
+const isEven = (num) => (num % 2 === 0 ? true : false);
+
+const sum = (nums) => {
+  nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+};
+
 const range = (start, end) =>
   Array(end - start + 1)
     .fill(start)
