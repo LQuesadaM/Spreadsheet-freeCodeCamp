@@ -1,10 +1,7 @@
-const average = (nums) => sum(nums) / nums.length;
-
 const isEven = (num) => (num % 2 === 0 ? true : false);
-
-const sum = (nums) => {
+const sum = (nums) =>
   nums.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-};
+const average = (nums) => sum(nums) / nums.length;
 
 const range = (start, end) =>
   Array(end - start + 1)
