@@ -1,4 +1,4 @@
-
+const average = (nums) => sum(nums) / nums.length;
 
 const isEven = (num) => (num % 2 === 0 ? true : false);
 
